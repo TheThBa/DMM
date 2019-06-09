@@ -7,17 +7,20 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = URA
+		victory_points = {
+			10142 5 
+		}
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SOV
+		add_core_of = URA
 
 	}
 
 	provinces={
-		237 278 361 1278 3280 4758 7320 10136 10142 10329 11223 11307 12117 12130 
+		10329 11223 10142 12117 4265 10185 4311 12200 4383 7373 1406 4261 10136
 	}
 	manpower=556677
 	buildings_max_level_factor=1.000

@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = OSL
+		owner = MFR
 		victory_points = {
 			575 5
 		}
@@ -29,15 +29,10 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = OSL
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-			}
-		}
+		add_core_of = MFR
 	}
 
 	provinces={
-		454 575 3402 3447 3476 3536 6504 6585 9500 9561 11420 11483 11548 11549 11606 
+		454 575 3402 3447 3476 3536 6504 6585 9500 9561 11420 11483 11548 11549 11606 11518 11491 6949
 	}
 }

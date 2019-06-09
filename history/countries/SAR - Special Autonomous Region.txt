@@ -1,4 +1,4 @@
-﻿capital = 794 #Surabaya
+﻿capital = 790 #Surabaya
 
 set_research_slots = 2
 
@@ -22,73 +22,35 @@ set_technology = {
 set_convoys = 25
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 10
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 30
-		}
-		neutrality = {
-			popularity = 50
-		}
-	}
-
-	ruling_party = neutrality
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
+set_popularities = {
+    fascist = 15
+    corporatist = 11
+    reactionary = 25
+    conservative = 30
+    liberal = 12
+    social_democrat = 7
+    socialist = 0
+    communist = 0
 }
+
 
 create_country_leader = {
 	name = "Amien Rais"
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_amien_rais.dds"
 	expire = "1953.3.1"
-	ideology = moderatism 
+	ideology = sunni_islamic_religious_conservatism 
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Ulil Abshar Abdalla"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Suharto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
 
 set_cosmetic_tag = SAR_pui_puppet
 

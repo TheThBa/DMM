@@ -1,23 +1,22 @@
-### Repurposed as South Sumatra
 
 state={
 	id=672
 	name="STATE_672"
-	manpower = 900000
-	
-	state_category = rural
-	
-	history=
-	{
-		owner = INS
-		add_core_of = INS
-		
+
+	history={
+		owner = SIA
+		add_core_of = SIA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
 	provinces={
-		1313 4276 4320
-		1246 1401 12296
+		1357 1535 1548 4511 4582 7516 7601 10384 10425 10438 12360 12373 12388 12402 12417 12431 
 	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

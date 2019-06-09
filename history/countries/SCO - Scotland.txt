@@ -1,4 +1,4 @@
-capital = 121
+﻿capital = 121
 
 OOB = "SCO_1936"
 
@@ -9,30 +9,20 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1933.3.5"
+	ruling_party = conservative
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_convoys = 5
-
+set_popularities = {
+    fascist = 0
+    corporatist = 0
+    reactionary = 50
+    conservative = 50
+    liberal = 0
+    social_democrat = 0
+    socialist = 0
+    communist = 0
+}
+	

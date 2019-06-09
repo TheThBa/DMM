@@ -2,26 +2,26 @@ bookmarks = {
 	bookmark = {
 		name = "A_NEW_DAWN_NAME"
 		desc = "A_NEW_DAWN_DESC"
-		date = 1936.1.1.12
+		date = 2004.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "RRC"
 		default = yes
 
 		"RRC"={
 			history = "RRC_A_NEW_DAWN_DESC"
-			ideology = nationalist
+			ideology = authoritarian
 			ideas = {
 				japanese_military_restrictions
 			}
 			focuses = {
-				CHI_nofutureforachinesestate
-				CHI_nothingriskednothinglost
-				CHI_reformorrevolution
+			#	CHI_nofutureforachinesestate
+			#	CHI_nothingriskednothinglost
+			#	CHI_reformorrevolution
 			}
 		}
 		"GER"={
 			history = "GER_A_NEW_DAWN_DESC"
-			ideology = national_socialist
+			ideology = fascist
 			ideas = {
 			}
 			focuses = {
@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_A_NEW_DAWN_DESC"
-			ideology = fascism
+			ideology = fascist
 			ideas = {
 			}
 			focuses = {
@@ -41,6 +41,18 @@ bookmarks = {
 			ideas={
 			}
 			focuses ={
+			}
+		}
+		"BII"={
+			history = "BII_A_NEW_DAWN_DESC"
+			ideology = conservative
+			ideas = {
+				the_guns_of_fort_mountbatten
+				seperate_but_equal
+			}
+			focuses = {
+				BII_sundown_towns
+				BII_god_bless_the_navy
 			}
 		}
 		"---"={

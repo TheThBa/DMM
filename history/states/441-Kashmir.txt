@@ -7,12 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		owner = RAJ
+		owner = JAM
+		add_core_of = JAM
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = PAK
-		add_core_of = RAJ
 	}
 
 	provinces={

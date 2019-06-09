@@ -62,18 +62,19 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-
-	parties = {
-        democratic = { popularity = 10 }
-        communism = { popularity = 5 }
-        fascism = { popularity = 35 }
-        neutrality = { popularity = 50 }
-
-	}
-	
-	ruling_party = neutrality
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+    fascist = 12
+    corporatist = 18
+    reactionary = 10
+    conservative = 50
+    liberal = 4
+    social_democrat = 6
+    socialist = 4
+    communist = 6
+}

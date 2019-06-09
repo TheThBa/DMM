@@ -79,27 +79,49 @@ set_convoys = 120
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
+		fascist = { 
+			popularity = 25
+			banned = no
 		}
 
-		fascism = {
-			popularity = 5
+		authoritarian = {
+			popularity = 15
+			banned = no
 		}
 		
-		communism = {
-			popularity = 12
+		reactionary = {
+			popularity = 58
+			banned = no
 		}
 		
-		neutrality = { 
-			popularity = 78
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
 		}
 	}
-	
-	ruling_party = neutrality
-	last_election = "1931.11.8"
-	election_frequency = 72
-	elections_allowed = yes
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {

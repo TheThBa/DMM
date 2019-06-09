@@ -22,61 +22,21 @@ set_technology = {
 set_convoys = 25
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 13
-		}
-
-		fascism = {
-			popularity = 75
-		}
-		
-		communism = {
-			popularity = 2
-		}
-		neutrality = {
-			popularity = 10
-		}
-	}
-
-	ruling_party = fascism
+	ruling_party = reactionary
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Mochtar Pakpahan"
-	desc = ""
-	picture = "gfx/leaders/southeast_asia/portrait_dmm_indonesia_mochtar_pakpahan.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
+set_popularities = {
+    fascist = 12
+    corporatist = 10
+    reactionary = 53
+    conservative = 25
+    liberal = 3
+    social_democrat = 5
+    socialist = 2
+    communist = 0
 }
 
 create_country_leader = {
@@ -84,18 +44,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/southeast_asia/portrait_dmm_east_indonesia_mudaffar_sjah_ii.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = absolute_monarchist
 	traits = {
 		
 	}

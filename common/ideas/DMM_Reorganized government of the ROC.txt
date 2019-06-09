@@ -6,14 +6,14 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
 				conscription_factor = -0.5
 				training_time_factor = 0.25
 				army_org_factor = -0.1
-				production_speed_arms_factory_factor = -0.15
+				#production_speed_arms_factory_factor = -0.15
 				max_planning = -0.25
 			}
 		}
@@ -23,7 +23,7 @@ ideas = {
 		#		always = no
 		#	}
 		#	allowed_civil_war = {
-		#		has_government = fascism
+		#		has_government = fascist
 		#	}
 		#	removal_cost = -1
 		#	modifier = {
@@ -39,7 +39,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -53,7 +53,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -68,7 +68,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				NOT= { has_government = authoritarian_communism }
+				NOT= { has_government = communist }
 			}
 			removal_cost = -1
 			modifier = {
@@ -83,7 +83,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				NOT= { has_government = authoritarian_communism }
+				NOT= { has_government = communist }
 			}
 			removal_cost = -1
 			modifier = {
@@ -99,7 +99,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -115,7 +115,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -130,11 +130,11 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.075
+				#research_time_factor = -0.075
 				political_power_gain = -0.5
 				monthly_population = -0.05
 			}
@@ -145,7 +145,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -179,12 +179,12 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
-				production_speed_industrial_complex_factor = 0.15
+				#production_speed_arms_factory_factor = 0.15
+				#production_speed_industrial_complex_factor = 0.15
 				autonomy_gain = -0.5
 			}
 		}
@@ -194,7 +194,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -212,7 +212,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -225,7 +225,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -239,13 +239,13 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = authoritarian_communism
+				has_government = communist
 			}
 			removal_cost = -1
 			modifier = {
 				political_power_factor = 0.15
 				stability_factor = 0.1
-				authoritarian_communism_drift = 0.1
+				communist_drift = 0.1
 			}
 		}
 		koichis_purge = {
@@ -254,7 +254,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -268,7 +268,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascist
 			}
 			removal_cost = -1
 			modifier = {
@@ -375,6 +375,50 @@ ideas = {
 				army_morale_factor = 0.5
 				army_core_defence_factor = 0.15
 				land_reinforce_rate = 0.2
+			}
+		}
+		RRC_most_peculiar_republic = {
+			picture = generic_spy_intel
+			allowed = { always = no }
+			allowed_civil_war = { has_government = reactionary }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.075
+				consumer_goods_factor = -0.02
+				army_morale_factor = 0.05
+			}
+		}
+		garrison_purged = {
+			picture = generic_purge
+			allowed = { always = no }
+			allowed_civil_war = { has_government = reactionary }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				training_time_factor = 0.25
+				army_org_factor = -0.05
+				army_morale_factor = 0.05
+				army_core_defence_factor = 0.15
+			}
+		}
+		work_quotas = {
+			picture = generic_purge
+			allowed = { always = no }
+			allowed_civil_war = { has_government = reactionary }
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				line_change_production_efficiency_factor = 0.2
+				industrial_capacity_factory = 0.05
+			}
+		}
+		RRC_entry_garrison_pleased = {
+			picture = generic_volunteer_expedition_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
 			}
 		}
 	}

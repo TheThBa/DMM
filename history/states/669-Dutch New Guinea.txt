@@ -4,24 +4,19 @@ state={
 	name="STATE_669"
 
 	history={
-		owner = INS
-		add_core_of = INS
-		victory_points = {
-			12371 1 
-		}
+		owner = JAP
+		add_core_of = JAP
+
 		buildings = {
-			infrastructure = 1
-			12371 = {
+			infrastructure = 2
+			12240 = {
 				naval_base = 2
-
-			}
-
+			}			
 		}
-
 	}
 
 	provinces={
-		7570 8235 8250 10436 10990 
+		1389 4393 7365 7614 10251 10423 12154 12193 12240 12400 13378 13379 13381 13384 
 	}
 	manpower=314300
 	buildings_max_level_factor=1.000

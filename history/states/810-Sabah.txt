@@ -1,21 +1,21 @@
+
 state={
 	id=810
 	name="STATE_810"
 
-	state_category=town
-
 	history={
 		owner = NBR
 		add_core_of = NBR
-
 		victory_points = {
 			10240 1 
 		}
+
 	}
-		
+
 	provinces={
-		1335 4338 7358 10212 10240 12171 12186 12228 
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
 	}
-	manpower=0
+	manpower=560000
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -1,17 +1,18 @@
+
 state={
 	id=811
 	name="STATE_811"
 
-	state_category=rural
-
 	history={
 		owner = NBR
 		add_core_of = NBR
+
 	}
-		
+
 	provinces={
-		1306 4282 10143 10199 
+		10184 
 	}
-	manpower=0
+	manpower=560000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

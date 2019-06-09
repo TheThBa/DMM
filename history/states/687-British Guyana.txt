@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GYA
+		add_core_of = GYA
 		buildings = {
 			infrastructure = 2
 			4982 = {
@@ -19,6 +20,8 @@ state={
 		}
 	}
 	
+
+
 	provinces={
 		4982 8107 12716 
 	}

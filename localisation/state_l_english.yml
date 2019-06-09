@@ -56,5 +56,6 @@
  tiny_island:0 "Tiny Island"
  pastoral:0 "Pastoral Region"
  coastal_city_concession:0 "Coastal City Concession"
+ ruined_city:0 "Ruined City"
  OCCUPATION_BREAKDOWN:0 "Occupation Breakdown:"
  OCCUPATION_BREAKDOWN_ENTRY:0 "\n$COUNTRY|Y$: $OCCUPATION|Y%0$"

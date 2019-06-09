@@ -574,3 +574,10 @@
  EEI_east_indies_fascism:0 "Empire of East Indies"
  EEI_east_indies_fascism_DEF:0 "the Empire of East Indies"
  EEI_east_indies_fascism_ADJ:0 "East Indian"
+
+ FRRC_reactionary:0 "Federal State of Northern Shina"
+ FRRC_reactionary_DEF:0 "the Federal State of Northern Shina"
+ FRRC_reactionary_ADJ:0 "Shinese"
+ USC_reactionary:0 "Government of the United States of Shina"
+ USC_reactionary_DEF:0 "the Government of the United States of Shina"
+ USC_reactionary_ADJ:0 "Shinese"

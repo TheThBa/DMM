@@ -40,18 +40,49 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 34
-		}	
-	
-		democratic = { 
-			popularity = 30
+		fascist = { 
+			popularity = 25
+			banned = no
+		}
+
+		authoritarian = {
+			popularity = 15
+			banned = no
 		}
 		
-		communism = {
-			popularity = 36
-		}	
+		reactionary = {
+			popularity = 58
+			banned = no
+		}
+		
+		conservative = { 
+			popularity = 2
+		}
+
+		liberal = { 
+			popularity = 0
+			banned = yes
+		}
+
+		social_democrat = {
+			popularity = 0
+			banned = yes
+		}
+		
+		socialist = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communist = { 
+			popularity = 0
+			banned = yes
+		}
 	}
+	ruling_party = authoritarian
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -59,7 +90,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = fascist
 	traits = {
 		
 	}
